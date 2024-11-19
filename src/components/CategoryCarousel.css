@@ -1,0 +1,27 @@
+/* src/components/CategoryCarousel.css */
+.carousel {
+    margin: 20px;
+    color: white;
+  }
+  
+  .carousel h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-content {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
+  .movie-card {
+    min-width: 200px;
+    overflow: hidden;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
